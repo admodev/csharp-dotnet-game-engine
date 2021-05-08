@@ -20,7 +20,9 @@ namespace GameEngine.GameEngine
     {
         private Vector2 ScreenSize = new Vector2(512, 512);
 
-        private string Title;
+        private string Title = "New Game";
+
+        private Canvas Window = null;
 
         public GameEngine(Vector2 ScreenSize, string Title)
         {
