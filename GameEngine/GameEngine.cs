@@ -28,6 +28,9 @@ namespace GameEngine.GameEngine
         {
             this.ScreenSize = ScreenSize;
             this.Title = Title;
+
+            Window = new Canvas();
+            Window.Size = new Size(Convert.ToInt32(ScreenSize.X), Convert.ToInt32(ScreenSize.Y));
         }
     }
 }
